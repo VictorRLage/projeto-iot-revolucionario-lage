@@ -1,0 +1,14 @@
+h1, p, i{
+    color: blueviolet;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.titulo{
+    color: red;
+}
+
+#paragrafo{
+    color: khaki;
+}
+
