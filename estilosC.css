@@ -3,17 +3,18 @@ body{
     margin: 0px;
     font-family: monospace;
 }
+
 .header{
     width: 100%;
     height: 100px;
     align-items: center;
     border-bottom: 3px #32b9cd solid;
 }
+
 .titulo {
     margin: 0px;
     color: #32b9cd;
 }
-
 .container{
     width: 80%;
     margin: auto;
@@ -40,17 +41,18 @@ p{
 }
 
 /* começo banner */
+
 .banner {
-    height: 500px;
+    height: 800px;
     background-color: rgb(0, 0, 0);
-    background-image: url("imgs/bg-jelly-fish-para-home.png");
-    background-size: cover;
+    background-image: url("imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: auto;
 
 }
 
 .banner .card{
     background-color: ghostwhite;
-    height: 450px;
+    height: 700px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -75,11 +77,29 @@ p{
 }
 
 input {
-    height: 30px;
+    height: 25px;
     border: 2px solid #e75459;
     border-radius: 6px;
 }
 
 .banner .card {
     color: #e75459;
+}
+
+.card .genero{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.genero .inp1{
+    height: 10px;
+}
+
+.genero .inp2{
+    height: 10px;
+}
+
+.genero .inp3{
+    height: 10px;
 }
